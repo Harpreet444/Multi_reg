@@ -4,4 +4,4 @@ matplotlib
 word2number
 joblib
 streamlit
-sciket-learn
+scikit-learn
