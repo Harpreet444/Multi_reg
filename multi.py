@@ -20,7 +20,7 @@ In exercise folder (same level as this notebook on github) there is hiring.csv. 
 
 st.subheader("Let's try to solve this:")
 st.write("Here we have given data set")
-data = pd.read_csv('D:\Machine_learning\multi_reg\hiring.csv')
+data = pd.read_csv('hiring.csv')
 st.table(data)
 
 st.subheader("""1) First we are going to handel missing values""")
@@ -82,7 +82,7 @@ st.code("""
         model = reg.fit(data[['experience','test_score(out of 10)','interview_score(out of 10)']],data[['salary($)']])
         """)
 
-model = joblib.load("D:\Machine_learning\multi_reg\model.joblib")
+model = joblib.load("model.joblib")
 
 st.subheader("Solution :")
 st.write("1) 2 yr experience, 9 test score, 6 interview score")
