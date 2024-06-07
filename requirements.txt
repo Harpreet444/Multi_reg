@@ -1,0 +1,6 @@
+pandas
+numpy
+matplotlib
+word2number
+joblib
+streamlit
